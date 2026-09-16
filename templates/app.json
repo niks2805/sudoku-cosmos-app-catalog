@@ -1,0 +1,36 @@
+{
+  "id": "my-future-app",
+  "sample": false,
+  "enabled": false,
+  "visibility": "hidden",
+  "releaseStage": "planned",
+  "priority": 100,
+  "display": {
+    "name": "My Future App",
+    "studioName": "Your studio name",
+    "eyebrow": "Coming soon",
+    "shortDescription": "A concise, player-facing one-line description.",
+    "themes": [
+      "puzzle",
+      "calm"
+    ],
+    "accent": "#D7AE5B",
+    "ctaLabel": "Explore"
+  },
+  "assets": {
+    "cardPath": "apps/my-future-app/card.jpg",
+    "alt": "Describe the card artwork for accessibility."
+  },
+  "links": {
+    "android": "https://play.google.com/store/apps/details?id=YOUR_PACKAGE",
+    "ios": "https://apps.apple.com/app/idYOUR_APP_ID",
+    "web": "https://example.com"
+  },
+  "eligibility": {
+    "platforms": [
+      "android",
+      "ios"
+    ],
+    "minHostVersion": "1.0.0"
+  }
+}
