@@ -1,7 +1,7 @@
 {
   "schema": "com.sudokucosmos.crosspromo/v1",
   "catalogId": "sudoku-cosmos-network",
-  "updatedAt": "2026-09-16T15:05:00Z",
+  "updatedAt": "2026-09-16T16:43:00Z",
   "visibility": "active",
   "maxCardsPerSurface": 6,
   "items": [
@@ -73,6 +73,86 @@
         "android": "https://play.google.com/store/apps/details?id=com.noodlecake.altosodyssey&hl=en_US",
         "ios": "https://apps.apple.com/app/altos-odyssey/id1182456409",
         "web": "https://www.altosodyssey.com/"
+      },
+      "eligibility": {
+        "platforms": [
+          "android",
+          "ios"
+        ],
+        "regions": [
+          "global"
+        ],
+        "minHostVersion": "1.0.0"
+      }
+    },
+    {
+      "id": "sample-room-mystery",
+      "sample": true,
+      "enabled": true,
+      "visibility": "published",
+      "releaseStage": "live",
+      "priority": 65,
+      "display": {
+        "name": "The Room",
+        "studioName": "Fireproof Games",
+        "eyebrow": "Sample live app",
+        "shortDescription": "A tactile mystery built around intricate puzzle boxes and hidden mechanisms.",
+        "themes": [
+          "mystery",
+          "puzzle",
+          "tactile"
+        ],
+        "accent": "#A87B3E",
+        "ctaLabel": "View on store"
+      },
+      "assets": {
+        "cardPath": "sample-room-mystery.jpg",
+        "alt": "Original sample artwork showing a brass mystery puzzle box on a noir desk."
+      },
+      "links": {
+        "android": "https://play.google.com/store/apps/details?id=com.FireproofStudios.TheRoom",
+        "ios": "https://apps.apple.com/us/app/the-room/id552039496",
+        "web": "https://www.fireproofgames.com/games/the-room/"
+      },
+      "eligibility": {
+        "platforms": [
+          "android",
+          "ios"
+        ],
+        "regions": [
+          "global"
+        ],
+        "minHostVersion": "1.0.0"
+      }
+    },
+    {
+      "id": "sample-mini-metro-map",
+      "sample": true,
+      "enabled": true,
+      "visibility": "published",
+      "releaseStage": "live",
+      "priority": 60,
+      "display": {
+        "name": "Mini Metro",
+        "studioName": "Dinosaur Polo Club",
+        "eyebrow": "Sample live app",
+        "shortDescription": "A calm strategy puzzle about building a living transit network.",
+        "themes": [
+          "strategy",
+          "calm",
+          "planning"
+        ],
+        "accent": "#4CA9A3",
+        "ctaLabel": "View on store"
+      },
+      "assets": {
+        "cardPath": "sample-mini-metro-map.jpg",
+        "alt": "Original sample artwork of a glowing abstract transit-planning map."
+      },
+      "links": {
+        "android": "https://play.google.com/store/apps/details?id=nz.co.codepoint.minimetro",
+        "ios": "https://apps.apple.com/us/app/mini-metro/id837860959",
+        "web": "https://dinopoloclub.com/games/mini-metro/"
       },
       "eligibility": {
         "platforms": [
