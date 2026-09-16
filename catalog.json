@@ -1,0 +1,89 @@
+{
+  "schema": "com.sudokucosmos.crosspromo/v1",
+  "catalogId": "sudoku-cosmos-network",
+  "updatedAt": "2026-09-16T15:05:00Z",
+  "visibility": "active",
+  "maxCardsPerSurface": 6,
+  "items": [
+    {
+      "id": "sample-monument-paths",
+      "sample": true,
+      "enabled": true,
+      "visibility": "published",
+      "releaseStage": "live",
+      "priority": 80,
+      "display": {
+        "name": "Monument Valley 2",
+        "studioName": "ustwo games",
+        "eyebrow": "Sample live app",
+        "shortDescription": "A meditative puzzle journey through impossible architecture.",
+        "themes": [
+          "puzzle",
+          "calm",
+          "visual"
+        ],
+        "accent": "#D98575",
+        "ctaLabel": "View on store"
+      },
+      "assets": {
+        "cardPath": "sample-monument-paths.jpg",
+        "alt": "Original sample artwork for a puzzle journey through architectural pathways."
+      },
+      "links": {
+        "android": "https://play.google.com/store/apps/details?id=com.ustwo.monumentvalley2&hl=en_US",
+        "ios": "https://apps.apple.com/app/monument-valley-2/id1187265767",
+        "web": null
+      },
+      "eligibility": {
+        "platforms": [
+          "android",
+          "ios"
+        ],
+        "regions": [
+          "global"
+        ],
+        "minHostVersion": "1.0.0"
+      }
+    },
+    {
+      "id": "sample-desert-odyssey",
+      "sample": true,
+      "enabled": true,
+      "visibility": "published",
+      "releaseStage": "live",
+      "priority": 70,
+      "display": {
+        "name": "Alto's Odyssey",
+        "studioName": "Noodlecake",
+        "eyebrow": "Sample live app",
+        "shortDescription": "A flowing sandboard journey across a vast desert horizon.",
+        "themes": [
+          "calm",
+          "journey",
+          "visual"
+        ],
+        "accent": "#D59B50",
+        "ctaLabel": "View on store"
+      },
+      "assets": {
+        "cardPath": "sample-desert-odyssey.jpg",
+        "alt": "Original sample artwork for a sandboard journey in a golden desert."
+      },
+      "links": {
+        "android": "https://play.google.com/store/apps/details?id=com.noodlecake.altosodyssey&hl=en_US",
+        "ios": "https://apps.apple.com/app/altos-odyssey/id1182456409",
+        "web": "https://www.altosodyssey.com/"
+      },
+      "eligibility": {
+        "platforms": [
+          "android",
+          "ios"
+        ],
+        "regions": [
+          "global"
+        ],
+        "minHostVersion": "1.0.0"
+      }
+    }
+  ]
+}
