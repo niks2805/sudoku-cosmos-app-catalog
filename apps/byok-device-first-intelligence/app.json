@@ -1,0 +1,30 @@
+{
+  "schema": "com.sudokucosmos.crosspromo-app/v1",
+  "id": "byok-device-first-intelligence",
+  "sample": false,
+  "enabled": true,
+  "visibility": "published",
+  "releaseStage": "planned",
+  "priority": 90,
+  "display": {
+    "name": "BYOK",
+    "studioName": "Our upcoming apps",
+    "eyebrow": "Device-first intelligence",
+    "shortDescription": "Bring your own key to private, device-first intelligence built around your control.",
+    "themes": ["private", "intelligence", "control"],
+    "accent": "#78CFE3",
+    "ctaLabel": "Follow the build"
+  },
+  "assets": {
+    "cardPath": "apps/byok-device-first-intelligence/card.jpg",
+    "alt": "A luminous neural constellation rests inside an open personal device vault with a subtle key motif."
+  },
+  "links": { "android": null, "ios": null, "web": null },
+  "communication": {
+    "kind": "app",
+    "settingsSurface": { "enabled": true },
+    "discoveryPrompt": { "enabled": false },
+    "gameplayBanner": { "enabled": true, "minSuccessfulGames": 13, "everySuccessfulGames": 15 }
+  },
+  "eligibility": { "platforms": ["android", "ios"], "regions": ["global"], "minHostVersion": "1.0.0" }
+}
