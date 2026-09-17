@@ -1,167 +1,118 @@
 {
   "schema": "com.sudokucosmos.crosspromo/v1",
   "catalogId": "sudoku-cosmos-network",
-  "updatedAt": "2026-09-16T16:43:00Z",
+  "updatedAt": "2026-09-17T13:15:00Z",
   "visibility": "active",
   "maxCardsPerSurface": 6,
   "items": [
     {
-      "id": "sample-monument-paths",
-      "sample": true,
+      "id": "menmkrix",
+      "sample": false,
       "enabled": true,
       "visibility": "published",
-      "releaseStage": "live",
-      "priority": 80,
+      "releaseStage": "planned",
+      "priority": 100,
       "display": {
-        "name": "Monument Valley 2",
-        "studioName": "ustwo games",
-        "eyebrow": "Sample live app",
-        "shortDescription": "A meditative puzzle journey through impossible architecture.",
-        "themes": [
-          "puzzle",
-          "calm",
-          "visual"
-        ],
-        "accent": "#D98575",
-        "ctaLabel": "View on store"
+        "name": "Menmkrix",
+        "studioName": "Our upcoming apps",
+        "eyebrow": "Vocabulary, reimagined",
+        "shortDescription": "A fun, visual path to mastering 1,000+ words with momentum and meaning.",
+        "themes": ["learning", "words", "playful"],
+        "accent": "#F2A95F",
+        "ctaLabel": "Follow the build"
       },
       "assets": {
-        "cardPath": "sample-monument-paths.jpg",
-        "alt": "Original sample artwork for a puzzle journey through architectural pathways."
+        "cardPath": "apps/menmkrix/card.jpg",
+        "alt": "A learner follows glowing word tiles and books toward a bright mountain of knowledge."
       },
       "links": {
-        "android": "https://play.google.com/store/apps/details?id=com.ustwo.monumentvalley2&hl=en_US",
-        "ios": "https://apps.apple.com/app/monument-valley-2/id1187265767",
+        "android": null,
+        "ios": null,
         "web": null
       },
+      "communication": {
+        "kind": "app",
+        "settingsSurface": { "enabled": true },
+        "discoveryPrompt": { "enabled": false },
+        "gameplayBanner": { "enabled": true, "minSuccessfulGames": 8, "everySuccessfulGames": 15 }
+      },
       "eligibility": {
-        "platforms": [
-          "android",
-          "ios"
-        ],
-        "regions": [
-          "global"
-        ],
+        "platforms": ["android", "ios"],
+        "regions": ["global"],
         "minHostVersion": "1.0.0"
       }
     },
     {
-      "id": "sample-desert-odyssey",
-      "sample": true,
+      "id": "byok-device-first-intelligence",
+      "sample": false,
       "enabled": true,
       "visibility": "published",
-      "releaseStage": "live",
-      "priority": 70,
+      "releaseStage": "planned",
+      "priority": 90,
       "display": {
-        "name": "Alto's Odyssey",
-        "studioName": "Noodlecake",
-        "eyebrow": "Sample live app",
-        "shortDescription": "A flowing sandboard journey across a vast desert horizon.",
-        "themes": [
-          "calm",
-          "journey",
-          "visual"
-        ],
-        "accent": "#D59B50",
-        "ctaLabel": "View on store"
+        "name": "BYOK",
+        "studioName": "Our upcoming apps",
+        "eyebrow": "Device-first intelligence",
+        "shortDescription": "Bring your own key to private, device-first intelligence built around your control.",
+        "themes": ["private", "intelligence", "control"],
+        "accent": "#78CFE3",
+        "ctaLabel": "Follow the build"
       },
       "assets": {
-        "cardPath": "sample-desert-odyssey.jpg",
-        "alt": "Original sample artwork for a sandboard journey in a golden desert."
+        "cardPath": "apps/byok-device-first-intelligence/card.jpg",
+        "alt": "A luminous neural constellation rests inside an open personal device vault with a subtle key motif."
       },
       "links": {
-        "android": "https://play.google.com/store/apps/details?id=com.noodlecake.altosodyssey&hl=en_US",
-        "ios": "https://apps.apple.com/app/altos-odyssey/id1182456409",
-        "web": "https://www.altosodyssey.com/"
+        "android": null,
+        "ios": null,
+        "web": null
+      },
+      "communication": {
+        "kind": "app",
+        "settingsSurface": { "enabled": true },
+        "discoveryPrompt": { "enabled": false },
+        "gameplayBanner": { "enabled": true, "minSuccessfulGames": 13, "everySuccessfulGames": 15 }
       },
       "eligibility": {
-        "platforms": [
-          "android",
-          "ios"
-        ],
-        "regions": [
-          "global"
-        ],
+        "platforms": ["android", "ios"],
+        "regions": ["global"],
         "minHostVersion": "1.0.0"
       }
     },
     {
-      "id": "sample-room-mystery",
-      "sample": true,
+      "id": "apex-career",
+      "sample": false,
       "enabled": true,
       "visibility": "published",
-      "releaseStage": "live",
-      "priority": 65,
+      "releaseStage": "planned",
+      "priority": 80,
       "display": {
-        "name": "The Room",
-        "studioName": "Fireproof Games",
-        "eyebrow": "Sample live app",
-        "shortDescription": "A tactile mystery built around intricate puzzle boxes and hidden mechanisms.",
-        "themes": [
-          "mystery",
-          "puzzle",
-          "tactile"
-        ],
-        "accent": "#A87B3E",
-        "ctaLabel": "View on store"
+        "name": "Apex Career",
+        "studioName": "Our upcoming apps",
+        "eyebrow": "Job-search intelligence",
+        "shortDescription": "A clearer, more confident route through job search, skills, and career decisions.",
+        "themes": ["career", "opportunity", "growth"],
+        "accent": "#E5B764",
+        "ctaLabel": "Follow the build"
       },
       "assets": {
-        "cardPath": "sample-room-mystery.jpg",
-        "alt": "Original sample artwork showing a brass mystery puzzle box on a noir desk."
+        "cardPath": "apps/apex-career/card.jpg",
+        "alt": "An early-career professional follows a glowing opportunity path toward a sunrise city skyline."
       },
       "links": {
-        "android": "https://play.google.com/store/apps/details?id=com.FireproofStudios.TheRoom",
-        "ios": "https://apps.apple.com/us/app/the-room/id552039496",
-        "web": "https://www.fireproofgames.com/games/the-room/"
+        "android": null,
+        "ios": null,
+        "web": null
+      },
+      "communication": {
+        "kind": "app",
+        "settingsSurface": { "enabled": true },
+        "discoveryPrompt": { "enabled": false },
+        "gameplayBanner": { "enabled": true, "minSuccessfulGames": 18, "everySuccessfulGames": 15 }
       },
       "eligibility": {
-        "platforms": [
-          "android",
-          "ios"
-        ],
-        "regions": [
-          "global"
-        ],
-        "minHostVersion": "1.0.0"
-      }
-    },
-    {
-      "id": "sample-mini-metro-map",
-      "sample": true,
-      "enabled": true,
-      "visibility": "published",
-      "releaseStage": "live",
-      "priority": 60,
-      "display": {
-        "name": "Mini Metro",
-        "studioName": "Dinosaur Polo Club",
-        "eyebrow": "Sample live app",
-        "shortDescription": "A calm strategy puzzle about building a living transit network.",
-        "themes": [
-          "strategy",
-          "calm",
-          "planning"
-        ],
-        "accent": "#4CA9A3",
-        "ctaLabel": "View on store"
-      },
-      "assets": {
-        "cardPath": "sample-mini-metro-map.jpg",
-        "alt": "Original sample artwork of a glowing abstract transit-planning map."
-      },
-      "links": {
-        "android": "https://play.google.com/store/apps/details?id=nz.co.codepoint.minimetro",
-        "ios": "https://apps.apple.com/us/app/mini-metro/id837860959",
-        "web": "https://dinopoloclub.com/games/mini-metro/"
-      },
-      "eligibility": {
-        "platforms": [
-          "android",
-          "ios"
-        ],
-        "regions": [
-          "global"
-        ],
+        "platforms": ["android", "ios"],
+        "regions": ["global"],
         "minHostVersion": "1.0.0"
       }
     }
