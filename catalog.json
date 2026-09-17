@@ -6,14 +6,14 @@
   "maxCardsPerSurface": 6,
   "items": [
     {
-      "id": "menmkrix",
+      "id": "mnemorix",
       "sample": false,
       "enabled": true,
       "visibility": "published",
       "releaseStage": "planned",
       "priority": 100,
       "display": {
-        "name": "Menmkrix",
+        "name": "Mnemorix",
         "studioName": "Our upcoming apps",
         "eyebrow": "Vocabulary, reimagined",
         "shortDescription": "A fun, visual path to mastering 1,000+ words with momentum and meaning.",
@@ -22,7 +22,7 @@
         "ctaLabel": "Follow the build"
       },
       "assets": {
-        "cardPath": "apps/menmkrix/card.jpg",
+        "cardPath": "apps/mnemorix/card.jpg",
         "alt": "A learner follows glowing word tiles and books toward a bright mountain of knowledge."
       },
       "links": {
