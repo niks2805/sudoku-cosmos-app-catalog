@@ -1,36 +1,42 @@
 {
-  "id": "my-future-app",
+  "schema": "com.sudokucosmos.crosspromo-app/v1",
+  "id": "replace-with-kebab-case-app-id",
   "sample": false,
   "enabled": false,
   "visibility": "hidden",
   "releaseStage": "planned",
-  "priority": 100,
+  "priority": 50,
   "display": {
-    "name": "My Future App",
-    "studioName": "Your studio name",
+    "name": "Replace with app name",
+    "studioName": "Our upcoming apps",
     "eyebrow": "Coming soon",
-    "shortDescription": "A concise, player-facing one-line description.",
-    "themes": [
-      "puzzle",
-      "calm"
-    ],
-    "accent": "#D7AE5B",
+    "shortDescription": "Write one concise and truthful sentence, maximum 120 characters.",
+    "themes": ["puzzle"],
+    "accent": "#86B7FF",
     "ctaLabel": "Explore"
   },
   "assets": {
-    "cardPath": "apps/my-future-app/card.jpg",
-    "alt": "Describe the card artwork for accessibility."
+    "cardPath": "apps/replace-with-kebab-case-app-id/card.jpg",
+    "alt": "Describe the original artwork accurately for accessibility."
   },
   "links": {
-    "android": "https://play.google.com/store/apps/details?id=YOUR_PACKAGE",
-    "ios": "https://apps.apple.com/app/idYOUR_APP_ID",
-    "web": "https://example.com"
+    "android": null,
+    "ios": null,
+    "web": null
+  },
+  "communication": {
+    "kind": "app",
+    "settingsSurface": { "enabled": true },
+    "discoveryPrompt": { "enabled": false },
+    "gameplayBanner": {
+      "enabled": false,
+      "minSuccessfulGames": 8,
+      "everySuccessfulGames": 15
+    }
   },
   "eligibility": {
-    "platforms": [
-      "android",
-      "ios"
-    ],
+    "platforms": ["android", "ios"],
+    "regions": ["global"],
     "minHostVersion": "1.0.0"
   }
 }
